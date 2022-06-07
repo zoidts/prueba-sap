@@ -50,6 +50,13 @@ Crear las migraciones
 ```
 
 ***
+Instalar NPM
+```
+ npm install 
+ 
+```
+
+***
 Inciar el sistema
 ```
  npm run dev 
