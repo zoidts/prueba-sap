@@ -26,11 +26,11 @@ Tecnologías utilizadas en el proyecto:
 ```
 $ git clone https://github.com/zoidts/prueba-sap.git
 $ Ingresar a la carpeta prueba-sap que se ha creado
-$ crear archivo .env con los datos de ejemplo que contiene el archivo .env.example 
+$ crear archivo .env y copia el contenido del archivo .env.example 
 $ Ejecutar composer install en su terminal. 
 $ Ejecutrar php artisan key:generate
 $ Ejecutar el comando npm install
-$ Crear base de datos y realizar la conexión en el archivo .env
+$ Crear base de datos en mysql y realizar la conexión en el archivo .env
 ```
 ***
 Crear base de datos y realizar la conexión en el archivo .env 
@@ -56,13 +56,19 @@ Inciar el sistema
  php artisan serv
 
 ```
+Ingresar http://127.0.0.1:8000/
+
+
+
 ## importante
 
 ***
 Recuperación de contraseña
-```
- Para realizar pruebas de envío para recuperar la contraseña es recomendable usar -[mailtrap.io](https://mailtrap.io) y crear una cuenta gratuita
-```
+Para realizar pruebas de envío para recuperar la contraseña es recomendable usar 
+ -[mailtrap.io](https://mailtrap.io) y crear una cuenta gratuita
+
+
+
 
 
 
