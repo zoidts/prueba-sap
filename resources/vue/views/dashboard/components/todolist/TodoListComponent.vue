@@ -1,24 +1,22 @@
 <template>
     <div class="row">
-        <div class="col-12 col-xl-3">
-        <CategoryListComponent @getCategories="getCategories" @filterCategory="filterCategory"   @getTasks="getTasks" :categories="categories" :totalCategories="totalCategories"/>
-        <CardTotalComponent text="Categorias" icon="fadeIn animated bx bx-purchase-tag" :totalCount="totalCategories" />
-        <CardTotalComponent text="Tareas"
-        icon="fadeIn animated bx bx-task"
-        :totalCount="totalTaks"
-        classBorder="border-success"
-        classText="text-success"
-        classBackGrounIcon="bg-success "
-        @getTasks="getTasks"
+                <div class="col-12 col-xl-3">
+                <CategoryListComponent @getCategories="getCategories" @filterCategory="filterCategory"   @getTasks="getTasks" :categories="categories" :totalCategories="totalCategories"/>
+                <CardTotalComponent text="Categorias" icon="fadeIn animated bx bx-purchase-tag" :totalCount="totalCategories" />
+                <CardTotalComponent text="Tareas"
+                icon="fadeIn animated bx bx-task"
+                :totalCount="totalTaks"
+                classBorder="border-success"
+                classText="text-success"
+                classBackGrounIcon="bg-success "
+                @getTasks="getTasks"
 
-         />
-  </div>
+                />
+        </div>
         <div class="col-12 col-xl-9">
             <TableToDoList :categories="categories" :tableData="tableData"  @getTasks="getTasks" />
         </div>
     </div>
-
-
 </template>
 
 <script>

@@ -5,7 +5,7 @@
 
 ### Información General
 ***
-Práctica SPA desarrollado con Laravel 9 y Vue 2. 
+Práctica SPA desarrollado con Laravel 9 y Vue. 
 
 ![Image text](https://repository-images.githubusercontent.com/500707715/a1143b9f-f6a3-4b50-b759-be14dea9363b)
 ## Tecnologías
@@ -63,7 +63,6 @@ Recuperación de contraseña
 ```
  Para realizar pruebas de envío para recuperar la contraseña es recomendable usar -[mailtrap.io](https://mailtrap.io) y crear una cuenta gratuita
 ```
-
 
 
 
