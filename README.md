@@ -7,7 +7,7 @@
 ***
 Práctica SPA desarrollado con Laravel 9 y Vue 2. 
 
-![Image text](https://github.com/zoidts/app-practica/blob/main/app-practica.png)
+![Image text](https://repository-images.githubusercontent.com/500707715/a1143b9f-f6a3-4b50-b759-be14dea9363b)
 ## Tecnologías
 ***
 Tecnologías utilizadas en el proyecto:
@@ -24,8 +24,8 @@ Tecnologías utilizadas en el proyecto:
 ***
  **Es importante que tenga instalado [composer](https://getcomposer.org/) y [Node JS](https://nodejs.org/es/) para realizar la instalación
 ```
-$ git clone https://github.com/zoidts/app-practica.git
-$ Ingresar a la carpeta app-practica que se ha creado
+$ git clone https://github.com/zoidts/prueba-sap.git
+$ Ingresar a la carpeta prueba-sap que se ha creado
 $ crear archivo .env con los datos de ejemplo que contiene el archivo .env.example 
 $ Ejecutar composer install en su terminal. 
 $ Ejecutrar php artisan key:generate
@@ -38,7 +38,7 @@ Crear base de datos y realizar la conexión en el archivo .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=app_practica
+DB_DATABASE=prueba-sap
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -56,8 +56,13 @@ Inciar el sistema
  php artisan serv
 
 ```
+## importante
 
-
+***
+Recuperación de contraseña
+```
+ Para realizar pruebas de envío para recuperar la contraseña es recomendable usar -[mailtrap.io](https://mailtrap.io) y crear una cuenta gratuita
+```
 
 
 
